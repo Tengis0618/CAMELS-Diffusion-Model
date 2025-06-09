@@ -1,0 +1,7 @@
+Total dataset size: 15000
+Train dataset size: 13500
+Test dataset size: 1500
+Number of parameters used for conditioning: 6
+Original parameter data shape: (1000, 6)
+Expanded parameter data shape: (15000, 6)
+Final normalized parameter data shape: (15000, 6)

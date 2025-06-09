@@ -1,0 +1,292 @@
+=== Diffusion Model Training and Sampling Timing Log ===
+
+Parameters: learning_rate=1e-05, epochs=100, timesteps=1500, num_params=6
+
+Epoch 1/100 completed in 53.99 seconds
+  Training Loss: 0.301333, ELBO: 7.557523, BPD: 0.002662
+  Validation Loss: 0.178296, Val ELBO: 9.711089, Val BPD: 0.003420
+  Negative Log Likelihood: 115692.604063
+  Likelihood calculation took 363.14 seconds
+Epoch 2/100 completed in 53.00 seconds
+  Training Loss: 0.129497, ELBO: 7.382414, BPD: 0.002600
+Epoch 3/100 completed in 53.00 seconds
+  Training Loss: 0.110746, ELBO: 8.369561, BPD: 0.002948
+Epoch 4/100 completed in 53.00 seconds
+  Training Loss: 0.098723, ELBO: 8.415097, BPD: 0.002964
+Epoch 5/100 completed in 53.01 seconds
+  Training Loss: 0.091634, ELBO: 7.877590, BPD: 0.002775
+Epoch 6/100 completed in 53.01 seconds
+  Training Loss: 0.085886, ELBO: 8.688202, BPD: 0.003060
+  Validation Loss: 0.107705, Val ELBO: 10.090272, Val BPD: 0.003554
+  Negative Log Likelihood: 101030.510625
+  Likelihood calculation took 363.59 seconds
+Epoch 7/100 completed in 53.04 seconds
+  Training Loss: 0.083682, ELBO: 7.094516, BPD: 0.002499
+Epoch 8/100 completed in 53.01 seconds
+  Training Loss: 0.082294, ELBO: 9.295208, BPD: 0.003274
+Epoch 9/100 completed in 53.05 seconds
+  Training Loss: 0.075544, ELBO: 7.687951, BPD: 0.002708
+Epoch 10/100 completed in 53.04 seconds
+  Training Loss: 0.072925, ELBO: 6.885142, BPD: 0.002425
+Epoch 11/100 completed in 53.05 seconds
+  Training Loss: 0.072463, ELBO: 7.352777, BPD: 0.002590
+  Validation Loss: 0.097421, Val ELBO: 7.078025, Val BPD: 0.002493
+  Negative Log Likelihood: 97002.309688
+  Likelihood calculation took 363.85 seconds
+Epoch 12/100 completed in 53.06 seconds
+  Training Loss: 0.070383, ELBO: 7.783505, BPD: 0.002742
+Epoch 13/100 completed in 53.07 seconds
+  Training Loss: 0.070307, ELBO: 7.708448, BPD: 0.002715
+Epoch 14/100 completed in 53.07 seconds
+  Training Loss: 0.067208, ELBO: 6.879612, BPD: 0.002423
+Epoch 15/100 completed in 53.07 seconds
+  Training Loss: 0.070072, ELBO: 8.626431, BPD: 0.003038
+Epoch 16/100 completed in 53.07 seconds
+  Training Loss: 0.067123, ELBO: 7.731809, BPD: 0.002723
+  Validation Loss: 0.074399, Val ELBO: 3.949901, Val BPD: 0.001391
+  Negative Log Likelihood: 94191.808438
+  Likelihood calculation took 364.04 seconds
+Epoch 17/100 completed in 53.09 seconds
+  Training Loss: 0.066979, ELBO: 6.830037, BPD: 0.002406
+Epoch 18/100 completed in 53.09 seconds
+  Training Loss: 0.066678, ELBO: 8.904193, BPD: 0.003136
+Epoch 19/100 completed in 53.09 seconds
+  Training Loss: 0.064110, ELBO: 8.330660, BPD: 0.002934
+Epoch 20/100 completed in 53.09 seconds
+  Training Loss: 0.063333, ELBO: 7.390800, BPD: 0.002603
+Epoch 21/100 completed in 53.09 seconds
+  Training Loss: 0.063464, ELBO: 8.057425, BPD: 0.002838
+  Validation Loss: 0.078505, Val ELBO: 5.938381, Val BPD: 0.002092
+  Negative Log Likelihood: 93317.401563
+  Likelihood calculation took 364.16 seconds
+Epoch 22/100 completed in 53.10 seconds
+  Training Loss: 0.063846, ELBO: 6.814923, BPD: 0.002400
+Epoch 23/100 completed in 53.10 seconds
+  Training Loss: 0.061269, ELBO: 8.296524, BPD: 0.002922
+Epoch 24/100 completed in 53.10 seconds
+  Training Loss: 0.063713, ELBO: 7.688108, BPD: 0.002708
+Epoch 25/100 completed in 53.10 seconds
+  Training Loss: 0.062513, ELBO: 8.451322, BPD: 0.002977
+Epoch 26/100 completed in 53.10 seconds
+  Training Loss: 0.060417, ELBO: 8.331964, BPD: 0.002935
+  Validation Loss: 0.074846, Val ELBO: 9.167937, Val BPD: 0.003229
+  Negative Log Likelihood: 92995.950313
+  Likelihood calculation took 364.22 seconds
+Epoch 27/100 completed in 53.09 seconds
+  Training Loss: 0.062333, ELBO: 8.066770, BPD: 0.002841
+Epoch 28/100 completed in 53.09 seconds
+  Training Loss: 0.061759, ELBO: 7.061265, BPD: 0.002487
+Epoch 29/100 completed in 53.10 seconds
+  Training Loss: 0.059896, ELBO: 7.986764, BPD: 0.002813
+Epoch 30/100 completed in 53.09 seconds
+  Training Loss: 0.056684, ELBO: 6.993739, BPD: 0.002463
+Epoch 31/100 completed in 53.10 seconds
+  Training Loss: 0.058012, ELBO: 7.191044, BPD: 0.002533
+  Validation Loss: 0.081337, Val ELBO: 5.866934, Val BPD: 0.002066
+  Negative Log Likelihood: 92730.972187
+  Likelihood calculation took 364.21 seconds
+Epoch 32/100 completed in 53.10 seconds
+  Training Loss: 0.058041, ELBO: 7.722018, BPD: 0.002720
+Epoch 33/100 completed in 53.10 seconds
+  Training Loss: 0.058155, ELBO: 7.776902, BPD: 0.002739
+Epoch 34/100 completed in 53.10 seconds
+  Training Loss: 0.058903, ELBO: 6.416630, BPD: 0.002260
+Epoch 35/100 completed in 53.09 seconds
+  Training Loss: 0.057670, ELBO: 7.107698, BPD: 0.002503
+Epoch 36/100 completed in 53.10 seconds
+  Training Loss: 0.060234, ELBO: 6.993016, BPD: 0.002463
+  Validation Loss: 0.081548, Val ELBO: 7.076712, Val BPD: 0.002493
+  Negative Log Likelihood: 90339.076250
+  Likelihood calculation took 364.19 seconds
+Epoch 37/100 completed in 53.09 seconds
+  Training Loss: 0.057186, ELBO: 7.274452, BPD: 0.002562
+Epoch 38/100 completed in 53.09 seconds
+  Training Loss: 0.059532, ELBO: 8.625005, BPD: 0.003038
+Epoch 39/100 completed in 53.09 seconds
+  Training Loss: 0.059087, ELBO: 8.658541, BPD: 0.003050
+Epoch 40/100 completed in 53.09 seconds
+  Training Loss: 0.057941, ELBO: 7.422543, BPD: 0.002614
+Epoch 41/100 completed in 53.09 seconds
+  Training Loss: 0.058776, ELBO: 7.972697, BPD: 0.002808
+  Validation Loss: 0.094221, Val ELBO: 10.668218, Val BPD: 0.003758
+  Negative Log Likelihood: 90032.769375
+  Likelihood calculation took 363.98 seconds
+Epoch 42/100 completed in 53.03 seconds
+  Training Loss: 0.055051, ELBO: 6.901679, BPD: 0.002431
+Epoch 43/100 completed in 53.05 seconds
+  Training Loss: 0.056328, ELBO: 7.706986, BPD: 0.002715
+Epoch 44/100 completed in 53.09 seconds
+  Training Loss: 0.057941, ELBO: 8.028186, BPD: 0.002828
+Epoch 45/100 completed in 53.09 seconds
+  Training Loss: 0.058037, ELBO: 7.475089, BPD: 0.002633
+Epoch 46/100 completed in 53.09 seconds
+  Training Loss: 0.055620, ELBO: 7.843605, BPD: 0.002763
+  Validation Loss: 0.077114, Val ELBO: 4.983678, Val BPD: 0.001755
+  Negative Log Likelihood: 89892.521875
+  Likelihood calculation took 364.19 seconds
+Epoch 47/100 completed in 53.09 seconds
+  Training Loss: 0.058132, ELBO: 7.443024, BPD: 0.002622
+Epoch 48/100 completed in 53.10 seconds
+  Training Loss: 0.055164, ELBO: 6.887294, BPD: 0.002426
+Epoch 49/100 completed in 53.09 seconds
+  Training Loss: 0.055012, ELBO: 7.618301, BPD: 0.002683
+Epoch 50/100 completed in 53.09 seconds
+  Training Loss: 0.057961, ELBO: 7.580673, BPD: 0.002670
+Epoch 51/100 completed in 53.09 seconds
+  Training Loss: 0.056591, ELBO: 7.771895, BPD: 0.002737
+  Validation Loss: 0.067537, Val ELBO: 9.888881, Val BPD: 0.003483
+  Negative Log Likelihood: 90692.597812
+  Likelihood calculation took 364.22 seconds
+Epoch 52/100 completed in 53.09 seconds
+  Training Loss: 0.055912, ELBO: 6.864406, BPD: 0.002418
+Epoch 53/100 completed in 53.10 seconds
+  Training Loss: 0.056165, ELBO: 8.015559, BPD: 0.002823
+Epoch 54/100 completed in 53.10 seconds
+  Training Loss: 0.056472, ELBO: 6.319072, BPD: 0.002226
+Epoch 55/100 completed in 53.09 seconds
+  Training Loss: 0.056594, ELBO: 8.612906, BPD: 0.003034
+Epoch 56/100 completed in 53.09 seconds
+  Training Loss: 0.057749, ELBO: 7.685720, BPD: 0.002707
+  Validation Loss: 0.077297, Val ELBO: 5.182033, Val BPD: 0.001825
+  Negative Log Likelihood: 89025.399063
+  Likelihood calculation took 364.20 seconds
+Epoch 57/100 completed in 53.09 seconds
+  Training Loss: 0.055070, ELBO: 7.715500, BPD: 0.002718
+Epoch 58/100 completed in 53.09 seconds
+  Training Loss: 0.058420, ELBO: 9.180045, BPD: 0.003233
+Epoch 59/100 completed in 53.09 seconds
+  Training Loss: 0.054707, ELBO: 7.594784, BPD: 0.002675
+Epoch 60/100 completed in 53.09 seconds
+  Training Loss: 0.056429, ELBO: 7.233499, BPD: 0.002548
+Epoch 61/100 completed in 53.09 seconds
+  Training Loss: 0.055934, ELBO: 6.760454, BPD: 0.002381
+  Validation Loss: 0.074467, Val ELBO: 9.507986, Val BPD: 0.003349
+  Negative Log Likelihood: 88917.860937
+  Likelihood calculation took 364.22 seconds
+Epoch 62/100 completed in 53.09 seconds
+  Training Loss: 0.055087, ELBO: 6.421752, BPD: 0.002262
+Epoch 63/100 completed in 53.09 seconds
+  Training Loss: 0.058145, ELBO: 7.213237, BPD: 0.002541
+Epoch 64/100 completed in 53.09 seconds
+  Training Loss: 0.058367, ELBO: 7.638263, BPD: 0.002690
+Epoch 65/100 completed in 53.09 seconds
+  Training Loss: 0.051753, ELBO: 6.578536, BPD: 0.002317
+Epoch 66/100 completed in 53.09 seconds
+  Training Loss: 0.054684, ELBO: 7.908644, BPD: 0.002786
+  Validation Loss: 0.077531, Val ELBO: 7.264220, Val BPD: 0.002559
+  Negative Log Likelihood: 88676.012500
+  Likelihood calculation took 364.22 seconds
+Epoch 67/100 completed in 53.08 seconds
+  Training Loss: 0.054794, ELBO: 8.228992, BPD: 0.002898
+Epoch 68/100 completed in 53.08 seconds
+  Training Loss: 0.056372, ELBO: 6.716935, BPD: 0.002366
+Epoch 69/100 completed in 53.08 seconds
+  Training Loss: 0.056420, ELBO: 8.354687, BPD: 0.002943
+Epoch 70/100 completed in 53.09 seconds
+  Training Loss: 0.054360, ELBO: 7.132905, BPD: 0.002512
+Epoch 71/100 completed in 53.08 seconds
+  Training Loss: 0.054038, ELBO: 7.329525, BPD: 0.002582
+  Validation Loss: 0.071262, Val ELBO: 6.434886, Val BPD: 0.002266
+  Negative Log Likelihood: 90675.755312
+  Likelihood calculation took 364.18 seconds
+Epoch 72/100 completed in 53.09 seconds
+  Training Loss: 0.053575, ELBO: 7.945378, BPD: 0.002799
+Epoch 73/100 completed in 53.09 seconds
+  Training Loss: 0.055563, ELBO: 7.811059, BPD: 0.002751
+Epoch 74/100 completed in 53.09 seconds
+  Training Loss: 0.050161, ELBO: 6.055079, BPD: 0.002133
+Epoch 75/100 completed in 53.09 seconds
+  Training Loss: 0.054996, ELBO: 6.920363, BPD: 0.002437
+Epoch 76/100 completed in 53.09 seconds
+  Training Loss: 0.055123, ELBO: 7.621257, BPD: 0.002684
+  Validation Loss: 0.077254, Val ELBO: 11.512012, Val BPD: 0.004055
+  Negative Log Likelihood: 89385.472500
+  Likelihood calculation took 364.21 seconds
+Epoch 77/100 completed in 53.09 seconds
+  Training Loss: 0.056930, ELBO: 7.607065, BPD: 0.002679
+Epoch 78/100 completed in 53.10 seconds
+  Training Loss: 0.054622, ELBO: 7.616107, BPD: 0.002683
+Epoch 79/100 completed in 53.10 seconds
+  Training Loss: 0.055913, ELBO: 6.928839, BPD: 0.002440
+Epoch 80/100 completed in 53.09 seconds
+  Training Loss: 0.053503, ELBO: 7.969146, BPD: 0.002807
+Epoch 81/100 completed in 53.09 seconds
+  Training Loss: 0.054580, ELBO: 8.249134, BPD: 0.002906
+  Validation Loss: 0.079811, Val ELBO: 7.024602, Val BPD: 0.002474
+  Negative Log Likelihood: 88229.290625
+  Likelihood calculation took 364.19 seconds
+Epoch 82/100 completed in 53.10 seconds
+  Training Loss: 0.053473, ELBO: 8.121542, BPD: 0.002861
+Epoch 83/100 completed in 53.10 seconds
+  Training Loss: 0.054403, ELBO: 7.544078, BPD: 0.002657
+Epoch 84/100 completed in 53.11 seconds
+  Training Loss: 0.051634, ELBO: 6.556933, BPD: 0.002309
+Epoch 85/100 completed in 53.10 seconds
+  Training Loss: 0.052637, ELBO: 7.364629, BPD: 0.002594
+Epoch 86/100 completed in 53.10 seconds
+  Training Loss: 0.054204, ELBO: 7.273638, BPD: 0.002562
+  Validation Loss: 0.078905, Val ELBO: 8.150144, Val BPD: 0.002871
+  Negative Log Likelihood: 88693.570625
+  Likelihood calculation took 364.20 seconds
+Epoch 87/100 completed in 53.10 seconds
+  Training Loss: 0.052506, ELBO: 7.225305, BPD: 0.002545
+Epoch 88/100 completed in 53.09 seconds
+  Training Loss: 0.052028, ELBO: 6.255434, BPD: 0.002203
+Epoch 89/100 completed in 53.10 seconds
+  Training Loss: 0.053252, ELBO: 7.061517, BPD: 0.002487
+Epoch 90/100 completed in 53.09 seconds
+  Training Loss: 0.053914, ELBO: 7.681493, BPD: 0.002706
+Epoch 91/100 completed in 53.09 seconds
+  Training Loss: 0.053699, ELBO: 6.877004, BPD: 0.002422
+  Validation Loss: 0.075808, Val ELBO: 7.471592, Val BPD: 0.002632
+  Negative Log Likelihood: 88336.313437
+  Likelihood calculation took 364.21 seconds
+Epoch 92/100 completed in 53.10 seconds
+  Training Loss: 0.052228, ELBO: 7.219197, BPD: 0.002543
+Epoch 93/100 completed in 53.10 seconds
+  Training Loss: 0.051922, ELBO: 7.164201, BPD: 0.002523
+Epoch 94/100 completed in 53.09 seconds
+  Training Loss: 0.054029, ELBO: 7.270788, BPD: 0.002561
+Epoch 95/100 completed in 53.09 seconds
+  Training Loss: 0.052700, ELBO: 6.852486, BPD: 0.002414
+Epoch 96/100 completed in 53.10 seconds
+  Training Loss: 0.053789, ELBO: 7.320937, BPD: 0.002579
+  Validation Loss: 0.072925, Val ELBO: 6.419934, Val BPD: 0.002261
+  Negative Log Likelihood: 89302.093750
+  Likelihood calculation took 364.17 seconds
+Epoch 97/100 completed in 53.08 seconds
+  Training Loss: 0.054088, ELBO: 6.824358, BPD: 0.002404
+Epoch 98/100 completed in 53.09 seconds
+  Training Loss: 0.056231, ELBO: 9.292741, BPD: 0.003273
+Epoch 99/100 completed in 53.09 seconds
+  Training Loss: 0.053191, ELBO: 7.919904, BPD: 0.002790
+Epoch 100/100 completed in 53.09 seconds
+  Training Loss: 0.053193, ELBO: 6.918953, BPD: 0.002437
+  Validation Loss: 0.076976, Val ELBO: 10.544052, Val BPD: 0.003714
+  Negative Log Likelihood: 87657.895000
+  Likelihood calculation took 364.16 seconds
+
+=== Training Complete ===
+Total training time: 12994.66 seconds (3.61 hours)
+Average time per epoch: 53.09 seconds
+Final training loss: 0.053193
+Final validation loss: 0.076976
+Final training BPD: 0.002437
+Final validation BPD: 0.003714
+Final negative log likelihood: 87657.895000
+
+
+=== Sampling Performance ===
+Reconstructing 10 test images took 19.38 seconds
+Average time per timestep: 0.0125 seconds
+Total timesteps: 1500
+ELBO of reconstructed images: 0.006086
+BPD of reconstructed images: 0.000002
+Negative log likelihood of reconstructed images: 101390.000000
+Power spectrum analysis:
+  Mean P(k) ratio (generated/original): nan ± nan
+  Good spectral match (within 20%) from k=0.3927 to k=4.3197
+Generating 25 parameter grid samples took 45.77 seconds
+ELBO of parameter grid samples: 1.623950
+BPD of parameter grid samples: 0.000572
+Negative log likelihood of parameter grid samples: 102741.980000
