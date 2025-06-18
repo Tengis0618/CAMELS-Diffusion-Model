@@ -219,11 +219,11 @@ nvidia-smi -l 1
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{your_paper_2024,
-  title={Cosmological Map Generation with Parameter-Conditional Diffusion Models},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
+@article{tengis2025camels,
+  title={Evaluating the Efficacy of Diffusion Models on High-Resolution Large-Scale Maps in Cosmology},
+  author={Tengis Temuulen},
+  year={2025},
+  howpublished = {\url{https://www.overleaf.com/read/68386a84341ed65c20c51f02}},
 }
 ```
 
@@ -243,7 +243,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For issues and questions:
 - **GitHub Issues**: Open an issue on this repository
-- **Email**: [your.email@institution.edu]
+- **Email**: [tt2273@nyu.edu]
 - **Documentation**: Check the inline code documentation
 
 ## Acknowledgments
@@ -251,3 +251,4 @@ For issues and questions:
 - CAMELS Collaboration for the simulation dataset
 - PyTorch team for the deep learning framework
 - Original diffusion model implementations that inspired this work
+- This research was carried out on the High Performance Computing resources at New York University Abu Dhabi.
